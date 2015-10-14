@@ -3,15 +3,15 @@
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="8dp"
-    android:elevation="4dp"
+    android:padding="@dimen/widget_main_container_padding"
+    android:elevation="@dimen/widget_main_container_elevation"
     android:background="#fff"
     android:weightSum="1">
 
     <LinearLayout
         android:orientation="horizontal" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="5dp"
+        android:paddingTop="@dimen/widget_container_paddingTop"
         android:layout_weight="0.9">
         <LinearLayout
             android:layout_width="0dp"

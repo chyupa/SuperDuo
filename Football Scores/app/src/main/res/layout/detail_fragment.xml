@@ -5,7 +5,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="@dimen/detail_container_marginTop">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -28,7 +28,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="@dimen/detail_share_container_marginTop">
         <Button
         android:contentDescription="@string/share_description"
         android:layout_width="match_parent"
@@ -38,10 +38,10 @@
         android:text="@string/share_text"
         android:id="@+id/share_button"
         android:drawableStart="@android:drawable/ic_menu_share"
-        android:paddingStart="120dp"
-        android:paddingLeft="120dp"
-        android:paddingRight="120dp"
-        android:paddingEnd="120dp"/>
+        android:paddingStart="@dimen/detail_share_button_padding"
+        android:paddingLeft="@dimen/detail_share_button_padding"
+        android:paddingRight="@dimen/detail_share_button_padding"
+        android:paddingEnd="@dimen/detail_share_button_padding"/>
     </FrameLayout>
 
 </LinearLayout>
